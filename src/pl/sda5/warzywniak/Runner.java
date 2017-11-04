@@ -1,5 +1,9 @@
 package pl.sda5.warzywniak;
 
+import pl.sda5.warzywniak.Konwersja.KonwerterProduktow;
+import pl.sda5.warzywniak.dao.MagazynDao;
+import pl.sda5.warzywniak.widoki.ProduktyKonsolowe;
+
 import java.io.FileNotFoundException;
 import java.util.List;
 
@@ -17,6 +21,8 @@ public class Runner {
         if(args[0].equals("pokazprodukty")) {
             try {
                 List<Produkt> produkty = sklep.pokazProdukty();
+                ProduktyKonsolowe widok = new ProduktyKonsolowe(produkty);
+                widok.pokaz();
             } catch (FileNotFoundException e) {
                 System.out.println("Nie znaleziono pliku \"magazyn.csv\"");
             }

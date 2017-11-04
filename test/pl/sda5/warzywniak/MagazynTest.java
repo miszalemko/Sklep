@@ -2,6 +2,8 @@ package pl.sda5.warzywniak;
 
 import org.junit.Before;
 import org.junit.Test;
+import pl.sda5.warzywniak.Konwersja.KonwerterProduktow;
+import pl.sda5.warzywniak.dao.MagazynDao;
 
 import java.util.List;
 

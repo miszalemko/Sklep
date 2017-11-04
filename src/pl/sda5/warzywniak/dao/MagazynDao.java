@@ -1,7 +1,9 @@
-package pl.sda5.warzywniak;
+package pl.sda5.warzywniak.dao;
+
+import pl.sda5.warzywniak.Konwersja.KonwerterProduktow;
+import pl.sda5.warzywniak.Produkt;
 
 import java.io.*;
-import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 

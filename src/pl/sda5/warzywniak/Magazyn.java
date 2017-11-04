@@ -1,5 +1,7 @@
 package pl.sda5.warzywniak;
 
+import pl.sda5.warzywniak.dao.MagazynDao;
+
 import java.io.FileNotFoundException;
 import java.util.List;
 

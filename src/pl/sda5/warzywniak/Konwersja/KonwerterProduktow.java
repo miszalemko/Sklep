@@ -1,4 +1,6 @@
-package pl.sda5.warzywniak;
+package pl.sda5.warzywniak.Konwersja;
+
+import pl.sda5.warzywniak.Produkt;
 
 import java.math.BigDecimal;
 
