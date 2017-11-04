@@ -25,5 +25,4 @@ public class MagazynDaoTest {
         assertEquals(wynik.get(1).getNazwa(), "produktB");
         assertEquals(wynik.get(1).getCena(), new BigDecimal("20"));
     }
-
 }
