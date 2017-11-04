@@ -7,6 +7,10 @@ public class Magazyn {
 
     private MagazynDao dao;
 
+    public Magazyn(MagazynDao dao) {
+        this.dao = dao;
+    }
+
     public List<Produkt> podayProduktyDoPokazania() throws FileNotFoundException {
         return dao.odczytajWszystkie();
     }

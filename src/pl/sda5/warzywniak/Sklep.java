@@ -7,6 +7,10 @@ public class Sklep {
 
     private Magazyn magazyn;
 
+    public Sklep(Magazyn magazyn) {
+        this.magazyn = magazyn;
+    }
+
     public List<Produkt> pokazProdukty() throws FileNotFoundException {
         return magazyn.podayProduktyDoPokazania();
     }
