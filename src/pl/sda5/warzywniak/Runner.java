@@ -15,7 +15,7 @@ public class Runner {
             System.out.println("Podaj poprawne parametry");
             System.exit(1);
         }
-        MagazynDao magazynDao = null
+        MagazynDao magazynDao = null;
         try {
             magazynDao = new MagazynDao("./dane/magazyn.csv", new KonwerterProduktow());
         }
@@ -45,10 +45,10 @@ public class Runner {
             int idZamowienia = -1;
             if (args.length == 4) {
                 idZamowienia = Integer.valueOf(args[3]);
-                Zamowienie zamowienie = znajdz...
+                Zamowienie zamowienie = null;
             }
             else {
-                Zamowienie zamowienie = new Zamowienie();
+                Zamowienie zamowienie = null;
             }
             System.out.println(idZamowienia);
             Optional<Produkt> produktOptional = magazyn.podaj(idProduktu);

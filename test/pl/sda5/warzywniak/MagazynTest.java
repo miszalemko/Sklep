@@ -14,13 +14,13 @@ public class MagazynTest {
     private Magazyn magazyn;
 
     @Before
-    public void setUp() {
+    public void setUp() throws Exception {
         MagazynDao dao = new MagazynDao("test/produkty-testowe.txt", new KonwerterProduktow());
         magazyn = new Magazyn(dao);
     }
 
     @Test
-    public void podayProduktyDoPokazania() throws Exception {
+    public void podajProduktyDoPokazania() throws Exception {
         List<Produkt> wynik = magazyn.podayProduktyDoPokazania();
         assertTrue(wynik.size() == 2);
     }

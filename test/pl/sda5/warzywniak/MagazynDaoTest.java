@@ -15,7 +15,7 @@ public class MagazynDaoTest {
     private MagazynDao dao;
 
     @Before
-    public void setUp() {
+    public void setUp() throws Exception {
         dao = new MagazynDao("test/produkty-testowe.txt", new KonwerterProduktow());
     }
 

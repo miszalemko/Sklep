@@ -18,6 +18,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/pl/sda5/warzywniak/Konwersja/KonwerterZamowien.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/pl/sda5/warzywniak/KonwerterProduktow.java">
           <value>
             <set />
@@ -69,6 +74,26 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/pl/sda5/warzywniak/dao/ZamowienieDao.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test/pl/sda5/warzywniak/Konwersja/KonwerterZamowienTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test/pl/sda5/warzywniak/MagazynDaoTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test/pl/sda5/warzywniak/MagazynTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test/pl/sda5/warzywniak/SklepTest.java">
           <value>
             <set />
           </value>

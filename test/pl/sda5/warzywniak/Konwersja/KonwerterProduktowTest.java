@@ -1,8 +1,9 @@
-package pl.sda5.warzywniak;
+package pl.sda5.warzywniak.Konwersja;
 
 import org.junit.Before;
 import org.junit.Test;
 import pl.sda5.warzywniak.Konwersja.KonwerterProduktow;
+import pl.sda5.warzywniak.Produkt;
 
 import java.math.BigDecimal;
 

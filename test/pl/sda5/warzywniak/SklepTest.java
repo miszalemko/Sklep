@@ -13,7 +13,7 @@ public class SklepTest {
 
     private Sklep sklep;
     @Before
-    public void setUp() {
+    public void setUp() throws Exception {
         MagazynDao magazynDao = new MagazynDao("test/produkty-testowe.txt", new KonwerterProduktow());
         Magazyn magazyn = new Magazyn(magazynDao);
         sklep = new Sklep(magazyn);
