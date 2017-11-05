@@ -12,4 +12,11 @@ public class Zamowienie {
     private BigDecimal kwotaKoncowa;
     private Map<Produkt,Integer> koszyk = new LinkedHashMap<>();
 
+    public void dodajProdukt(Produkt produkt,int ilosc) {
+        if(koszyk.containsKey(produkt)) {
+            ilosc += koszyk.get(produkt);
+        }
+        koszyk.put(produkt,ilosc);
+    }
+
 }

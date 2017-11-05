@@ -16,4 +16,9 @@ public class Sklep {
     }
 
 
+    public int kup(Produkt produkt, int ilosc) {
+        //zamowienie
+        //czy jest zamowienie czy stworzenie nowego
+        return 0;
+    }
 }

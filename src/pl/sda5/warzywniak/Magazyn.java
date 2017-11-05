@@ -4,6 +4,7 @@ import pl.sda5.warzywniak.dao.MagazynDao;
 
 import java.io.FileNotFoundException;
 import java.util.List;
+import java.util.Optional;
 
 public class Magazyn {
 
@@ -13,7 +14,11 @@ public class Magazyn {
         this.dao = dao;
     }
 
-    public List<Produkt> podayProduktyDoPokazania() throws FileNotFoundException {
+    public List<Produkt> podayProduktyDoPokazania() {
         return dao.odczytajWszystkie();
+    }
+
+    public Optional<Produkt> podaj(int idProduktu) {
+        return dao.znajdzPoId(idProduktu);
     }
 }

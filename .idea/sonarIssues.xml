@@ -18,16 +18,6 @@
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/dane/magazyn.csv">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/src/pl/sda5/warzywniak/Konwersja/KonwerterProduktow.java">
-          <value>
-            <set />
-          </value>
-        </entry>
         <entry key="$PROJECT_DIR$/src/pl/sda5/warzywniak/KonwerterProduktow.java">
           <value>
             <set />
@@ -78,32 +68,7 @@
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/src/pl/sda5/warzywniak/widoki/ProduktyKonsolowe.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/test/pl/sda5/warzywniak/KonwerterProduktowTest.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/test/pl/sda5/warzywniak/MagazynDaoTest.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/test/pl/sda5/warzywniak/MagazynTest.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/test/pl/sda5/warzywniak/SklepTest.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/test/produkty-testowe.txt">
+        <entry key="$PROJECT_DIR$/src/pl/sda5/warzywniak/dao/ZamowienieDao.java">
           <value>
             <set />
           </value>
